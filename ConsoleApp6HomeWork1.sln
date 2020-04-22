@@ -1,25 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30002.166
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp6HomeWork1", "ConsoleApp6HomeWork1\ConsoleApp6HomeWork1.csproj", "{EBE48F7E-F73E-4777-AA4C-5724AEFACC22}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EBE48F7E-F73E-4777-AA4C-5724AEFACC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBE48F7E-F73E-4777-AA4C-5724AEFACC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBE48F7E-F73E-4777-AA4C-5724AEFACC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBE48F7E-F73E-4777-AA4C-5724AEFACC22}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D0AF5E90-8BC3-4F82-B4D4-1C13D0749A67}
-	EndGlobalSection
-EndGlobal
+VisualStudioVersion = 16.0.30002.166using System;
+
+namespace ConcoleAppHomeWork2
+{ 
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string stroka = "1a2b3c3y95po7";
+
+            for (int i = 0; i < stroka.Length; i++)
+                if (i % 2 == 1)
+
+                    Console.Write(stroka[i]);
+
+        }
+    }
+}
+
